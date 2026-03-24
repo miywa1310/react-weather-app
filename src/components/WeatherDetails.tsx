@@ -1,7 +1,9 @@
-import pressureIcon from "../assets/Humidity.svg";
-import precipitationIcon from "../assets/Precipitation.svg";
-import Thermometr from "../assets/Thermometr.svg";
-import windIcon from "../assets/Wind.svg";
+import {
+  precipitationIcon,
+  pressureIcon,
+  Thermometr,
+  windIcon,
+} from "../assets";
 import { useAppSelector } from "../store/hooks";
 
 interface DetailItem {

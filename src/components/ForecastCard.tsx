@@ -1,9 +1,4 @@
-import Cloudy from "../assets/Cloudy.svg";
-import Rain from "../assets/Rain.svg";
-import SmallRain from "../assets/small_rain.svg";
-import RainnySun from "../assets/SmallRainnySun.svg";
-import Snow from "../assets/snow.png";
-import Sun from "../assets/Sun.svg";
+import { Cloudy, Rain, RainnySun, SmallRain, Snow, Sun } from "../assets";
 import type { List } from "../store/types/forecastType";
 
 interface ForecastCardProps {

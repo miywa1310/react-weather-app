@@ -1,4 +1,4 @@
-import SunIcon from "../assets/sun.svg";
+import { SunIcon } from "../assets";
 import { useAppSelector } from "../store/hooks";
 
 const formatDate = (date: number | string): string => {

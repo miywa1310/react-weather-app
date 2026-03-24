@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
-import HeaderLogo from "../assets/Header Logo.svg";
-import ToggleIcon from "../assets/ToggleIcon.svg";
+import { HeaderLogo, ToggleIcon } from "../assets";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { fetchWeeklyWeather } from "../store/slices/forecastSlice";
 import { fetchCurrentWeather, setCity } from "../store/slices/weatherSlice";
